@@ -14,11 +14,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+        <entry file="file://$PROJECT_DIR$/../nodejs-study/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="15">
-                <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+                <caret line="1" selection-start-line="1" selection-end-line="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -132,8 +132,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="nodejs-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodejs-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="nodejs-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodejs-study" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -180,19 +180,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Node.js.all-function.js">
-    <configuration name="all-function.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/express-demo/all-function.js" working-dir="$PROJECT_DIR$">
+    <configuration name="all-function.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../nodejs-study/express-demo/all-function.js" working-dir="$PROJECT_DIR$/../nodejs-study">
       <method v="2" />
     </configuration>
-    <configuration name="express-ejs-html.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/express-demo/express-ejs-html.js" working-dir="$PROJECT_DIR$">
+    <configuration name="express-ejs-html.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../nodejs-study/express-demo/express-ejs-html.js" working-dir="$PROJECT_DIR$/../nodejs-study">
       <method v="2" />
     </configuration>
-    <configuration name="express-ejs.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/express-demo/express-ejs.js" working-dir="$PROJECT_DIR$">
+    <configuration name="express-ejs.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../nodejs-study/express-demo/express-ejs.js" working-dir="$PROJECT_DIR$/../nodejs-study">
       <method v="2" />
     </configuration>
-    <configuration name="express-middleware.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/express-demo/express-middleware.js" working-dir="$PROJECT_DIR$">
+    <configuration name="express-middleware.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../nodejs-study/express-demo/express-middleware.js" working-dir="$PROJECT_DIR$/../nodejs-study">
       <method v="2" />
     </configuration>
-    <configuration name="get-post-demo.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/express-demo/get-post-demo.js" working-dir="$PROJECT_DIR$">
+    <configuration name="get-post-demo.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../nodejs-study/express-demo/get-post-demo.js" working-dir="$PROJECT_DIR$/../nodejs-study">
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -218,11 +218,12 @@
       <workItem from="1592838779420" duration="5030000" />
       <workItem from="1592847755718" duration="86000" />
       <workItem from="1592989354695" duration="58010000" />
+      <workItem from="1593535547767" duration="495000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63126000" />
+    <option name="totallyTimeSpent" value="63621000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -236,7 +237,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="816" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25229034" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25229034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -249,7 +250,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.3287483" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49964765" weight="0.4198895" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49964765" visible="true" weight="0.4198895" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010571" side_tool="true" weight="0.38812155" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -280,7 +281,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web-demo/res/static/img/banner1.jpg">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/web-demo/res/static/img/banner1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../../2018年Node.js入门实战视频教程（39讲-IT营大地）/08 利用HTTP模块 URl模块 Path模块 Fs模块创建一个静态WEB服务器 读取文件获取响应类型（下） -avi/nodejs静态web服务-下（demo）/00services4.js">
@@ -293,28 +294,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-demo/my_modules/json/mime.json">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/web-demo/my_modules/json/mime.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="468" column="27" lean-forward="true" selection-end-line="484" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-demo/my_modules/mime.js">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/web-demo/my_modules/mime.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-demo/asynchronous.js">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/web-demo/asynchronous.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="6" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="20" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-demo/EventEmitter.js">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/web-demo/EventEmitter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="25" />
@@ -328,14 +329,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/router-demo/template/demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/npm-demo/package.json">
+    <entry file="file://$PROJECT_DIR$/router-demo/template/demo.java" />
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/npm-demo/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="19" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="19" />
@@ -361,66 +356,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/router-demo/my-module/mime.js">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/router-demo/my-module/mime.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/router-demo/my-module/json/mime.json">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/router-demo/my-module/json/mime.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="557">
           <caret line="483" column="30" lean-forward="true" selection-start-line="483" selection-start-column="30" selection-end-line="483" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/router-demo/static/css/a.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-demo/web-server.js">
+    <entry file="file://$PROJECT_DIR$/router-demo/static/css/a.js" />
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/web-demo/web-server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
           <caret line="56" column="6" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="56" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/router-demo/a.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/router-demo/package.json">
+    <entry file="file://$PROJECT_DIR$/router-demo/a.css" />
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/router-demo/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/router-demo/static/css/style.css">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/router-demo/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/router-demo/node_modules/_ejs@3.1.3@ejs/lib/ejs.js">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/router-demo/node_modules/_ejs@3.1.3@ejs/lib/ejs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="462" column="15" selection-start-line="462" selection-start-column="15" selection-end-line="462" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/router-demo/template/demo.ejs">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/router-demo/template/demo.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="534">
           <caret line="36" column="15" lean-forward="true" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/router-demo/ejs-demo.js">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/router-demo/ejs-demo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
@@ -441,35 +428,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/router-demo/template/login.ejs">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/router-demo/template/login.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="26" lean-forward="true" selection-end-line="29" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/router-demo/template/index.ejs">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/router-demo/template/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="7" lean-forward="true" selection-end-line="16" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/router-demo/template/register.ejs">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/router-demo/template/register.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="26" lean-forward="true" selection-end-line="31" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/router-demo/get-post-demo.js">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/router-demo/get-post-demo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
           <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
@@ -483,84 +470,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-demo/template/hello.ejs">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/express-demo/template/hello.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="7" lean-forward="true" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-demo/template/hello.html">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/express-demo/template/hello.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-demo/express-ejs.js">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/express-demo/express-ejs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-demo/express-ejs-html.js">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/express-demo/express-ejs-html.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="14" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-demo/hello-express.js">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/express-demo/hello-express.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-demo/express_demo.js">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/express-demo/express_demo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-demo/express-middleware.js">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/express-demo/express-middleware.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/router-demo/my-module/myRouter.js">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/router-demo/my-module/myRouter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="985">
           <caret line="256" column="6" lean-forward="true" selection-start-line="251" selection-start-column="5" selection-end-line="256" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-demo/middleware.js">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/express-demo/middleware.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-demo/get-post-demo.js">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/express-demo/get-post-demo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/router-demo/myRouter-demo.js">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/router-demo/myRouter-demo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-demo/package.json">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/express-demo/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
@@ -577,53 +564,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-demo/node_modules/_express@4.17.1@express/lib/router/layer.js">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/express-demo/node_modules/_express@4.17.1@express/lib/router/layer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
           <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-demo/template/register.html">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/express-demo/template/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="62" lean-forward="true" selection-end-line="31" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-demo/template/index.html">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/express-demo/template/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-demo/static/css/style.css">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/express-demo/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-demo/all-function.js">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/express-demo/all-function.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
           <caret line="159" column="47" lean-forward="true" selection-start-line="159" selection-start-column="47" selection-end-line="159" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-demo/template/login.html">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/express-demo/template/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="78" selection-start-line="20" selection-start-column="78" selection-end-line="20" selection-end-column="78" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/../nodejs-study/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="15">
-            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <caret line="1" selection-start-line="1" selection-end-line="1" />
           </first_editor>
           <second_editor />
         </state>
