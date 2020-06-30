@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <h1>渲染数据:<%= msg %></h1>
+
+
+    <fieldset>
+        <legend>城市数据渲染</legend>
+        <div>
+        <% if(citys !=null){ %>
+            <% for ( index in citys ){%>
+                <h4><%= citys[index]%></h4>
+            <% } %>
+        <% } else{ %>
+            <h4>暂无城市数据</h4>
+        <% } %>
+        </div>
+    </fieldset>
+
+
+    <fieldset>
+        <legend>用户数据渲染</legend>
+        <div>
+        <% if(users !=null){ %>
+            <% for ( i in users ){%>
+                <h4><%= users[i].name%> —— <%= users[i].nickName%>—— <%= users[i].born%>——</h4>
+            <% } %>
+        <% } else{ %>
+            <h4>暂无用户数据</h4>
+        <% } %>
+        </div>
+    </fieldset>
+
+
+
+</body>
+</html>

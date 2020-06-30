@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <!--这里写的路径是 设置的静态资源映射的路径，不是文件夹的相对路径-->
+    <!--也就是app.addStaticPath("/static/**","./router-demo/static") 这设置的映射地址-->
+    <link href="/static/css/style.css" rel="stylesheet"  type="text/css" >
+</head>
+<body>
+
+        <fieldset class="bg">
+            <legend>用户注册</legend>
+            <div>
+                <form action="/register"  method="post">
+                    <pre>
+                    用 户 名:<input type="text" name="username" >
+
+                    密   码:<input type="password"  name="password">
+
+                    重复密码:<input type="password"  name="repassword">
+
+                    <button>立即注册</button>
+
+                    <a href="/login.html">已经账户，立即登录</a>
+                    </pre>
+                </form>
+            </div>
+        </fieldset>
+
+</body>
+</html>
