@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<!--The content below is only a placeholder and can be replaced.-->
+
+<link rel="stylesheet" href="/static/bootstrap/css/bootstrap.css">
+
+
+<!--引入公共导航-->
+<%- include("../comment/header.html") %>
+
+
+
+
+<div class="container-fluid">
+    <div class="row">
+
+
+        <!--引入公共菜单-->
+        <%- include('../comment/left.html',{tag:'index'})%>
+
+        <div class="col-sm-10">
+            <ol class="breadcrumb">
+                <li class="active">商品管理
+                </li>
+                <li class="active">商品列表
+                </li>
+            </ol>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    搜索
+                </div>
+                <div class="panel-body">
+                    <form role="form" class="form-inline"  action="/goods/index.html">
+                        <div class="form-group">
+                            <label for="name">名称</label>
+                            <input type="text" class="form-control" id="name" name="keyword" placeholder="请输入名称">
+                        </div>
+
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-default">开始搜索</button> <%if(page.keyword!=""){%>搜索关键词:<%=page.keyword%><%}%>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!--
+                列表展示
+            -->
+            <div class="table-responsive">
+                <table class="table table-striped ">
+                    <thead>
+                    <tr>
+                        <th>编号</th>
+                        <th>图标</th>
+                        <th>名称</th>
+                        <th>价格</th>
+                        <th>邮费</th>
+                       
+                        <th class="text-center">操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    <% if(page.count==0||page.data==null){%>
+                        <tr>
+                            <td colspan="6"><h4>没有检索到相关数据！</h4></td>
+                        </tr>
+                    <%}else{
+                        for(var i=0;i<page.data.length;i++){
+                    %>
+                    <tr>
+                        <td><%=(page.page-1)*page.limit+1+i%></td>
+                        <td>
+                            <%if(page.data[i].coverImg!=""){%>
+                            <img src="<%=page.data[i].coverImg%>" width="120" height="90">
+                            <%} else{%>
+                                    暂停图片
+                            <%}%>
+                        </td>
+                        <td><%=page.data[i].name%></td>
+                        <td><%=page.data[i].price%></td>
+                        <td><%=page.data[i].free%></td>
+                      
+                        <td class="text-center">
+                            <a class="btn btn-primary" href="/goods/edit.html?_id=<%=page.data[i]._id%>" role="button" >修改</a>
+                            <a class="btn btn-danger" href="/goods/delete?_id=<%=page.data[i]._id%>" role="button">删除</a>
+                        </td>
+                    </tr>
+
+                    <%}}%>
+
+                    </tbody>
+
+                </table>
+
+                <% if(page.count>=0||page.data!=null){%>
+                <div>
+                    <lable>共计数据:<%=page.count%>条.&nbsp; 当前<%=page.page%>/<%=page.totalPage%>页</lable> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <% if(page.page>1){%>
+                    <a class="btn btn-info btn-sm" href="/goods/index.html?page=1&keyword=<%=page.keyword%>" role="button">首页</a>&nbsp;
+                    <a class="btn btn-info btn-sm" href="/goods/index.html?page=<%=(page.page-1)%>&keyword=<%=page.keyword%>" role="button">上一页</a>&nbsp;
+                    <%}%>
+                    <% if(page.totalPage>page.page){%>
+                    <a class="btn btn-info btn-sm" href="/goods/index.html?page=<%=(page.page+1)%>&keyword=<%=page.keyword%>" role="button">下一页</a>&nbsp;
+                    <a class="btn btn-info btn-sm" href="/goods/index.html?page=<%=page.totalPage%>&keyword=<%=page.keyword%>" role="button">尾页</a>&nbsp;
+                    <%}%>
+                </div>
+                <%}%>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

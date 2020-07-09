@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<!--The content below is only a placeholder and can be replaced.-->
+
+<link rel="stylesheet" href="/static/bootstrap/css/bootstrap.css">
+
+
+
+<link rel="stylesheet" href="/static/css/basic.css">
+
+
+<!--引入公共导航-->
+<%- include("../comment/header.html") %>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <!--引入公共菜单-->
+        <%- include('../comment/left.html') %>
+
+        <div class="col-sm-10">
+            <ol class="breadcrumb">
+                <li class="active">商品管理
+                </li>
+                <li class="active">商品列表
+                </li>
+            </ol>
+            <div class="panel panel-default">
+              
+			    <div class="panel-heading">
+                  修改商品
+                </div>
+                <div class="panel-body">
+                    <div class="table-responsive input-form">
+                        <form action="/goods/update" method="post" about="update" enctype="multipart/form-data">
+                            <input  type="hidden"  name="_id" value="<%=goods._id%>">
+                            <ul>
+                                <li>  商品名称: <input type="text" name="name" required value="<%=goods.name%>" /></li>
+
+                                <li>  商品图片: <input type="file" name="coverImg"/><br>
+                                    <%if(goods.coverImg!=""){%>
+                                    <img src="<%=goods.coverImg%>" width="120" height="90">
+                                    <%} else{%>
+                                    暂无图片
+                                    <%}%>
+                                </li>
+                                <li>  商品价格: <input type="text" name="price" required value="<%=goods.price%>" /></li>
+                                <li>  商品邮费: <input type="text" name="free" required value="<%=goods.free%>"/></li>
+
+                                <li>
+                                    商品描述:
+                                    <textarea name="description" id="" cols="60" rows="8"><%=goods.description%></textarea>
+                                </li>
+
+                                <li>
+                                    <br/>
+                                    <button type="submit" class="btn btn-primary">修改</button>
+                                </li>
+
+                            </ul>
+
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
